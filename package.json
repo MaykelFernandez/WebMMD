@@ -1,0 +1,35 @@
+{
+  "name": "webmmd",
+  "version": "1.0.0",
+  "description": "Display and animate PMD models in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaykelFernandez/WebMMD.git"
+  },
+  "keywords": [
+    "mmd",
+    "pmd",
+    "hatsune_miku",
+    "vocaloid",
+    "mikumikudance"
+  ],
+  "author": "MaykelFernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaykelFernandez/WebMMD/issues"
+  },
+  "homepage": "https://github.com/MaykelFernandez/WebMMD#readme",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
