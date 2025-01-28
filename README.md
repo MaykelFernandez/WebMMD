@@ -80,7 +80,7 @@ Current frames per second.
 This function is called in each update cycle.
 ```javascript
 // Example
-mmd.log = function (message) {
+mmd.fpsDebug = function (message) {
 	console.log(message)
 }
 ```
