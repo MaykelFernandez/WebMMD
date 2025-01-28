@@ -4,10 +4,10 @@ Display and animate PMD models from MikuMikuDance.
 This is an embeddable and compact adaptation of [mmd-viewer-js](https://github.com/takahirox/mmd-viewer-js) by [@superhoge](https://twitter.com/superhoge)
 
 ## Usage Example
-```
+```html
 <canvas id="mmd"></canvas>
 ```
-```
+```js
 var mmd = new MMD('mmd',320,240);
 mmd.init();
 mmd.loadModel({
@@ -28,7 +28,7 @@ mmd.log = console.log;
 mmd.onload = mmd.start;
 ```
 ## MMD: ```class```
-```
+```js
 var mmd = new MMD('canvas',320,240);
 ```
 
@@ -52,7 +52,7 @@ Default audio offset for the songs being played.
 Defines if the scene should be rendered after loading the models.
 Set this property to ```false``` to update the scene manually.
 
-```
+```js
 mmd.autoUpdate = false;
 function render() {
 	requestAnimationFrame(render);
@@ -66,7 +66,7 @@ This function is called when the program has finished loading the first model an
 ### log: ```function```
 This function is called when an important event occurs providing a description of what is happening in its argument.
 
-```javascript
+```js
 // Example
 mmd.log = function (message) {
 	console.log(message)
@@ -78,7 +78,7 @@ Current frames per second.
 
 ### fpsDebug: ```function```
 This function is called in each update cycle.
-```javascript
+```js
 // Example
 mmd.fpsDebug = function (message) {
 	console.log(message)
@@ -93,7 +93,7 @@ Initialize the program.
 ### ```loadModel(config)```
 Load a model, up to five models can be loaded.
 
-```
+```js
 // Example
 mmd.loadModel({
 	name: 'Miku',
@@ -105,7 +105,7 @@ mmd.loadModel({
 ### ```loadMotion(config)```
 Load motion files.
 
-```
+```js
 mmd.loadMotions({
 	url: [
 		'motion/wavefile_v2.vmd',
