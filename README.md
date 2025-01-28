@@ -1,7 +1,9 @@
 # Web MMD
 Display and animate PMD models from MikuMikuDance.
 
-This is an embeddable and compact adaptation of [mmd-viewer-js](https://github.com/takahirox/mmd-viewer-js) by [@superhoge](https://twitter.com/superhoge)
+This is an embeddable adaptation of [mmd-viewer-js](https://github.com/takahirox/mmd-viewer-js) by [@superhoge](https://twitter.com/superhoge)
+
+Test it alive [here](https://maykelfernandez.github.io/WebMMD)
 
 ## Usage Example
 ```html
